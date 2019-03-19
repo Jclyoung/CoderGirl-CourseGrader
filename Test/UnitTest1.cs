@@ -59,7 +59,7 @@ namespace Test
         [Fact]
         public void Test_GradeTestScores_ReturnsFail_WhenNoTestScores()
         {
-            int[] testCase = { };
+            int[] testCase = {};
 
             string actual = Program.GradeTestScores(testCase);
 
